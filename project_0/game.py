@@ -18,7 +18,7 @@ def random_predict(number: int = 1) -> int:
     return count
 
 count_ls = []
-random_array = np.random.randint(1, 101, size=(10)) 
+random_array = np.random.randint(1, 101, size=(1000)) 
 
 for number in random_array:
     count_ls.append(random_predict(number))
